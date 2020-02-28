@@ -1,0 +1,4 @@
+[13-Oct-2019 19:32:43 America/Edmonton] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/idtflrco/public_html/demo_now/views/dashboard/payment-option.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/idtflrco/public_html/demo_now/views/dashboard/payment-option.php on line 7

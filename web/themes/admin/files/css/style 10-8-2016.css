@@ -1,0 +1,68 @@
+
+
+@font-face {
+    font-family: 'cartwheelregular';
+    src: url('../fonts/cartwheel-webfont.eot');
+    src: url('../fonts/cartwheel-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/cartwheel-webfont.woff2') format('woff2'),
+         url('../fonts/cartwheel-webfont.woff') format('woff'),
+         url('../fonts/cartwheel-webfont.ttf') format('truetype'),
+         url('../fonts/cartwheel-webfont.svg#cartwheelregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.navbar-header img{margin-top: -16px;}
+.navbar {
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    min-height: 63px;
+}
+ .img-box{  text-align:center; margin-bottom: 30px; box-shadow: 0 5px 5px -5px #888;   background-color:#f9f9f9; line-height: 45px; letter-spacing:0.6px;  padding:50px 0;   font-family: 'cartwheelregular'; font-size:36px; text-align:center; }
+ .img-box a{  text-align:center; line-height: 45px; letter-spacing:0.6px;  padding:50px 0;   font-family: 'cartwheelregular'; font-size:36px; text-align:center; }
+ .img-box a:hover{  text-align:center;  line-height: 45px; letter-spacing:0.6px; text-decoration:none;  padding:50px 0;   font-family: 'cartwheelregular'; font-size:36px; text-align:center; }
+  .img-box img{width:60%; border:solid 6px #efefef; margin-left:20%; }
+
+  .navbar-default {
+    background-color:transparent;
+    background-image:url(../images/menu-bg.png);
+    border-color: #e7e7e7;
+    padding-top:15px; padding-bottom:6px;
+    box-shadow: 0 0 6px 3px #888;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.navbar {
+    border: 1px solid transparent;
+    margin-bottom: 20px;
+    min-height: 94px;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #edbd35;
+}
+
+.navbar-right .dropdown-menu {
+    left: auto;
+    right: 0;
+    top: 78px;
+}
+.footer{color:#428bca }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color:transparent; color: #edbd35;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+.treeview, .treeview ul {
+    list-style: outside none none;
+    margin: 51px 0 0;
+    padding: 0;
+}

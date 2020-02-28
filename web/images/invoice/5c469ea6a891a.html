@@ -1,0 +1,343 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- saved from url=(0058)https://webhost.shawhosting.ca/OS4/index.php/Run/easymail3 -->
+<html dir="LTR" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css"><!--
+TD {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #737373;
+}
+
+INPUT {
+	font-size: 11px;
+	font-family: courier new,courier,monospace;
+}
+
+SELECT {
+	font-size: 11px;
+	font-family: courier new,courier,monospace;
+}
+
+TEXTAREA {
+	font-size: 11px;
+	font-family: courier new,courier,monospace;
+}
+
+A.tablnk {
+        text-decoration: none;
+        font: bold 13px Arial, Helvetica, sans-serif;
+        color: #ffffff;
+}  
+
+A.winlnk {
+	color: #0072cf;
+	text-decoration: none;
+}
+
+A.winlnk:hover {
+	color: #0072cf;
+	text-decoration: underline;
+}
+
+.Desktop {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #737373;
+}
+
+.DisabledText {
+	color: #c1c1c1;
+}
+
+.BevelPanel {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: silver;
+	border: 1px ridge #606060;
+}
+
+.InsetPanel {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: black;
+	background-color: silver;
+	border: 1px groove #606060;
+}
+
+.AltPanel {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #B0B0CC;
+	border: 1px solid #505050;
+}
+
+
+--></style>
+
+<title>EasyMailSetup</title>
+
+
+
+<link rel="stylesheet" rev="STYLESHEET" href="./EasyMailSetup2_files/logger.css" type="text/css">
+<link rel="stylesheet" rev="STYLESHEET" type="text/css" href="./EasyMailSetup2_files/base.css">
+<link rel="stylesheet" rev="STYLESHEET" type="text/css" href="./EasyMailSetup2_files/app.css">
+
+
+
+
+<script async="" src="./EasyMailSetup2_files/analytics.js"></script><script type="text/javascript" async="" src="./EasyMailSetup2_files/linkid.js"></script><script type="text/javascript" async="" charset="utf-8" src="./EasyMailSetup2_files/RtmLoggerclient.min.to.5.js" id="utag_45"></script><script type="text/javascript" async="" charset="utf-8" src="./EasyMailSetup2_files/analytics.js" id="tealium-tag-7110"></script><script type="text/javascript" async="" src="./EasyMailSetup2_files/ga.js"></script><script src="./EasyMailSetup2_files/utag.js" type="text/javascript" async=""></script><script language="JAVASCRIPT" src="./EasyMailSetup2_files/yahoo-min.js"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/dom-min.js"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/event-min.js"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/dragdrop-min.js"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/animation-min.js"></script>
+
+
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/logger-min.js"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Tealium"></script>
+
+
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(1)"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(2)"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(3)"></script>
+
+
+
+
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(4)"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(5)"></script>
+<script language="JAVASCRIPT" src="./EasyMailSetup2_files/Javascript(6)"></script>
+
+<script type="text/javascript" async="" charset="utf-8" src="./EasyMailSetup2_files/utag.64.js" id="utag_hostopia.main_64"></script><script type="text/javascript" async="" charset="utf-8" src="./EasyMailSetup2_files/utag.v.js" id="tiqapp"></script></head>
+
+
+<body id="mainFrame" onload="begin_app()" onresize="performResize()" tabindex="0">
+<span style="margin: 0px;">
+<div id="accordPage">
+
+<div id="dimmer" style="height: 895px; display: none;"></div>
+<div id="darkdimmer" style="display: none;"></div>
+<div id="working_page_animation" style="display: none;">One moment please</div>
+<div id="dialog" style="display: none; left: 654px; top: 25%;" class="dialog_error">
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tbody><tr>
+	<td align="left" valign="top">
+		<div id="dialog_icon" class="dialog_icon_error"></div>
+	</td>
+	<td align="left" valign="top" width="100%">
+		<div id="dialog_text">Please enter search parameter</div>
+	</td>
+	</tr>
+	<tr>
+	<td align="right" valign="top" colspan="2">
+		<div id="dialog_question" align="right" style="display: none"></div>
+		<div id="dialog_buttons" align="right"><input type="button" class="dialog_button" classname="dialog_button" value="OK" id="dialog_button_ok"></div>
+	</td>
+	</tr>
+	</tbody></table>
+</div>
+<div id="darkoverlay" style="display: none; height: 400px; width: 750px; left: 454px; top: 288px;" class="darkoverlay_container">
+	<div id="darkoverlay_topbuttons" style="display: block;"><div class="wp_button_main_container" align="left"><button type="BUTTON" class="wp_button_main_right" onclick="feedback.hide();">Close X</button></div></div>
+	<div id="darkoverlay_content" style="height: 356px;"><table cellpadding="0" cellspacing="0" border="0"><tbody><tr><td align="center" valign="top">	<div class="wizardFinish_logo"></div></td><td align="left" valign="top">	<div class="wizardFinish_content">		<p class="wiz_lastpage_title">Your feedback is important to us.</p>		<p class="wp_text_feature_option">Thank you!</p>	</div></td></tr></tbody></table></div>
+	<div id="darkoverlay_bottombuttons" style="display: none;"><div class="wp_button_main_container"><button class="wp_button_main_right" onclick="feedback.SendFeedback();">Submit Feedback</button><button class="wp_button_main_right" onclick="feedback.hide();">Cancel</button></div></div>
+</div>
+
+<div id="navMenu">
+	<div id="taskBar"><div id="task_feedback" class="taskBarGroup" classname="taskBarGroup"><a href="javascript:popupFeedback()">Feedback</a></div><div id="task_healthstatus" class="taskBarGroup" classname="taskBarGroup">Email Health: <span><span style="color: green;">Excellent</span></span></div><div id="task_aliasaccs" class="taskBarGroup" classname="taskBarGroup">Alias Accounts: <span><span style="color: #528CCC;">98 Available</span></span></div><div id="task_emailaccs" class="taskBarGroup" classname="taskBarGroup">Email Accounts: <span><span style="color: #528CCC;">78 Available</span></span></div></div>
+	<div id="nm_app_name"><img src="./EasyMailSetup2_files/logo_navmenu.jpg"></div>
+	<div id="nm_section_listing" style="visibility: visible;"><div id="section_get_started" align="center" class="nm_section_group_enabled"><div id="section_tableft_get_started" class="nm_tab_left_enabled"></div><div id="section_tabcenter_get_started" class="nm_tab_center_enabled">Main Menu</div><div id="section_tabright_get_started" class="nm_tab_right_enabled"></div></div><div id="section_addwizard" align="center" class="nm_section_group_enabled"><div id="section_tableft_addwizard" class="nm_tab_left_enabled"></div><div id="section_tabcenter_addwizard" class="nm_tab_center_enabled">Create Account</div><div id="section_tabright_addwizard" class="nm_tab_right_enabled"></div></div><div id="section_modifywizard" align="center" class="nm_section_group_enabled"><div id="section_tableft_modifywizard" class="nm_tab_left_enabled"></div><div id="section_tabcenter_modifywizard" class="nm_tab_center_enabled">Modify Account</div><div id="section_tabright_modifywizard" class="nm_tab_right_enabled"></div></div><div id="section_dashboard" align="center" class="nm_section_group_selected"><div id="section_tableft_dashboard" class="nm_tab_left_selected"></div><div id="section_tabcenter_dashboard" class="nm_tab_center_selected">Dashboard</div><div id="section_tabright_dashboard" class="nm_tab_right_selected"></div></div><div id="section_domain_setting" align="center" class="nm_section_group_enabled"><div id="section_tableft_domain_setting" class="nm_tab_left_enabled"></div><div id="section_tabcenter_domain_setting" class="nm_tab_center_enabled">Settings</div><div id="section_tabright_domain_setting" class="nm_tab_right_enabled"></div></div><div id="section_easymail_help" align="center" class="nm_section_group_enabled"><div id="section_tableft_easymail_help" class="nm_tab_left_enabled"></div><div id="section_tabcenter_easymail_help" class="nm_tab_center_enabled">Help</div><div id="section_tabright_easymail_help" class="nm_tab_right_enabled"></div></div></div>
+</div>
+
+<div id="wizardBar" style="display: none;">
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tbody><tr>
+	<td align="left" valign="middle">
+		<div class="topWizardButtons_left">
+			<button id="wizardBarPrevious" class="wizard_button_left" title="Select an Account" style="display: block;">&lt; Go Back</button>
+		</div>
+	</td>
+	<td align="center" valign="middle" width="100%">
+
+		<div id="wizardBarTitle" align="center">
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+			<td align="left" valign="top">
+				<span class="wizardBarMainText">Progress</span>
+			</td>
+			<td align="left" valign="top">
+				<div class="wizardBarSubText" id="wizardBarProgressDots"><div class="wizard_progress_1" title="Select an Account"></div><div class="wizard_progress_selected_2" title="Quick Properties"></div></div>
+			</td>
+			<td align="left" valign="top">
+				<span class="wizardBarSubText">:</span>
+			</td>
+			<td align="left" valign="top">
+				<span class="wizardBarSubText" id="wizardBarMainTitle">Modify Account Wizard</span>
+			</td>
+			</tr>
+			</tbody></table>
+		</div>
+
+	</td>
+	<td align="right" valign="middle">
+
+		<div class="topWizardButtons_right">
+			<button id="wizardBarNext" class="wizard_button_right" title="Finish wizard" style="display: block;">Next &gt;</button>
+		</div>
+
+	</td>
+	</tr>
+	</tbody></table>
+</div>
+
+<div id="feedbackForm" style="display: none;">
+	<div class="darkoverlay_title">Feedback</div>
+	<div class="wp_box_feedback" id="BoxFeedback" style="height:304px;">
+		<form name="FeedbackForm" id="FeedbackForm" onsubmit="return false;" accept-charset="UTF-8">
+
+		<table border="0" cellpadding="0" cellspacing="0">
+		<tbody><tr>
+			<td align="left" valign="top" width="75%">
+				<p class="wp_text_feature_option">Please select a type of feedback:</p>
+			</td>
+			<td align="right" valign="top" width="250px">
+				<div class="wp_form_small_container">
+				<select size="1" name="feedbackType" style="width:250px;" id="feedbackType" class="wp_form_dropdown" onchange="feedback.ToggleFeedbackType(this.value);">
+
+					<option value="1">Comment</option>
+					<option value="2">Suggestion</option>
+					<option value="3">Problem</option>
+				</select>
+				</div>
+			</td>
+		</tr>
+		</tbody></table>
+		<div id="blockParams_type_1and2" style="display: block;">
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td align="left" valign="top">
+					<input type="CHECKBOX" name="notifyFeedback" value="yes" class="wp_form_checkbox" id="notifyFeedback"> 
+				</td>
+				<td align="left" valign="top" width="100%">
+					<p class="wp_text_feature_option_inline">I would like to be contacted about my feedback.</p>
+				</td>
+			</tr>
+			</tbody></table>
+		</div>
+		<div id="blockParams_type_3" style="display:none;">
+			<table border="0" cellpadding="0" cellspacing="0" style="margin-left:1px">
+			<tbody><tr>
+				<td align="left" valign="top" width="75%">
+					<p class="wp_text_feature_option">How often do you use this function?</p>
+				</td>
+				<td align="right" valign="top" width="75%">
+					<div class="wp_form_small_container">
+					<select size="1" name="howOftenUse" style="width:250px;" id="howOftenUse" class="wp_form_dropdown">
+
+						<option value="First time">First time</option>
+						<option value="Seldom">Seldom</option>
+						<option value="Sometimes">Sometimes</option>
+						<option value="Frequently">Frequently</option>
+					</select>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+					<p class="wp_text_feature_option">How often does this problem occur?</p>
+				</td>
+				<td align="right" valign="top" width="75%">
+					<div class="wp_form_small_container">
+					<select size="1" name="howOftenOccur" style="width:250px;" id="howOftenOccur" class="wp_form_dropdown">
+
+						<option value="First time">First time</option>
+						<option value="Seldom">Seldom</option>
+						<option value="Sometimes">Sometimes</option>
+						<option value="Frequently">Frequently</option>
+						<option value="Always">Always</option>
+					</select>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+					<p class="wp_text_feature_option">How important is this function to you?</p>
+				</td>
+				<td align="right" valign="top" width="75%">
+					<div class="wp_form_small_container">
+					<select size="1" name="howImportant" style="width:250px;" id="howImportant" class="wp_form_dropdown">
+
+						<option value="Not important">Not important</option>
+						<option value="Important">Important</option>
+						<option value="Very important">Very important</option>
+					</select>
+					</div>
+				</td>
+			</tr>
+			</tbody></table>
+			<table border="0" cellpadding="0" cellspacing="0">
+			<tbody><tr>
+				<td align="left" valign="top">
+					<input type="CHECKBOX" name="consultedHelp" value="yes" class="wp_form_checkbox" id="consultedHelp"> 
+				</td>
+				<td align="left" valign="top" width="100%">
+					<p class="wp_text_feature_option_inline">I consulted the online help files.</p>
+				</td>
+			</tr>
+			<tr>
+				<td align="left" valign="top">
+					<input type="CHECKBOX" name="consultedSupport" value="yes" class="wp_form_checkbox" id="consultedSupport"> 
+				</td>
+				<td align="left" valign="top" width="100%">
+					<p class="wp_text_feature_option_inline">I contacted technical support.</p>
+				</td>
+			</tr>
+			</tbody></table>
+		</div>
+
+		<p class="wp_text_feature_details" id="descType">Comment:</p>
+		<textarea name="feedbackDescription" id="feedbackDescription" class="wp_form_textarea" style="width: 98%; min-height:75px; height:75px; overflow: auto; resize: vertical;"></textarea>
+
+		<input type="hidden" name="csrftoken" value="c122d2bccacea894f85feddf02b95e1fb35bb460">
+</form>
+
+	</div>
+</div>
+
+<form name="HelpFormParams" method="POST" action="https://webhost.shawhosting.ca/OS4/index.php/Run/easymail3" target="HelpWindow" accept-charset="UTF-8">
+
+<input type="HIDDEN" name="Host" value="webhost.shawhosting.ca"><input type="HIDDEN" name="HostopianID" value="2325"><input type="HIDDEN" name="ProductCode" value="GETFOUND2325">
+<input type="hidden" name="csrftoken" value="c122d2bccacea894f85feddf02b95e1fb35bb460">
+</form>
+
+
+<form name="mainForm" method="POST" action="https://webhost.shawhosting.ca/OS4/index.php" target="workingPane" accept-charset="UTF-8">
+
+<input type="HIDDEN" name="jumpto" value="dashboard">
+<input type="HIDDEN" id="appid" name="appid" value="easymail3">
+<input type="HIDDEN" id="helplink" name="helplink" value="window.open(&#39;http://wikisupportdesk.com/wikihelp/en/index.php/easymail3?wikihelpinit=1&#39;,&#39;HelpWindow&#39;,&#39;width=780,height=480,resizable=1,scrollbars=1,toolbar=1&#39;)">
+<input type="HIDDEN" id="demolink" name="demolink" value="">
+<input type="HIDDEN" id="feedbacklink" name="feedbacklink" value="window.opener.appFeedback(&#39;easymail3&#39;)">
+<input type="HIDDEN" id="hideshell" name="hideshell" value="1">
+<input type="HIDDEN" id="section" name="section" value="">
+
+<input type="hidden" name="csrftoken" value="c122d2bccacea894f85feddf02b95e1fb35bb460">
+</form>
+
+
+<div id="workingPaneContainer" style="height: 895px;">
+	<div id="navPanel" style="width: 0px; display: block;"><div id="heading_container_help" class="np_heading_container" classname="np_heading_container"><div id="heading_help" class="np_heading" classname="np_heading"><span>EasyMail Help</span></div></div><div id="heading_container_email_setup" class="np_heading_container" classname="np_heading_container"><div id="heading_email_setup" class="np_heading" classname="np_heading"><span>Email Setup</span><div id="heading_arrow_email_setup" class="np_heading_arrow" classname="np_heading_arrow"></div></div><div id="subheading_container_email_setup" class="np_subheading_container" classname="np_subheading_container"><div id="subheading_using_webmail" class="np_subheading" classname="np_subheading">Using Webmail</div><div id="subheading_on_your_computer" class="np_subheading" classname="np_subheading">On your computer</div><div id="subheading_ms_outlook" class="np_subheading" classname="np_subheading">Microsoft Outlook</div><div id="subheading_out_config" class="np_subheading" classname="np_subheading">Email Settings</div></div></div><div id="heading_container_email_troubleshooting" class="np_heading_container" classname="np_heading_container"><div id="heading_email_troubleshooting" class="np_heading" classname="np_heading"><span>Troubleshooting</span><div id="heading_arrow_email_troubleshooting" class="np_heading_arrow" classname="np_heading_arrow"></div></div><div id="subheading_container_email_troubleshooting" class="np_subheading_container" classname="np_subheading_container"><div id="subheading_start_email_troubleshooting" class="np_subheading" classname="np_subheading">Start Email Troubleshooting</div><div id="subheading_support_request" class="np_subheading" classname="np_subheading">Support request form</div></div></div><div id="heading_container_reduce_my_spam" class="np_heading_container" classname="np_heading_container"><div id="heading_reduce_my_spam" class="np_heading" classname="np_heading"><span>Reduce Junk Mail</span></div></div><div id="heading_container_settingstable" class="np_heading_container" classname="np_heading_container"><div id="heading_settingstable" class="np_heading" classname="np_heading"><span>Setup instructions</span></div></div></div>
+
+	<iframe name="workingPane" id="workingPane" scrolling="AUTO" frameborder="0" onload="wp_load(true);" src="./EasyMailSetup2_files/blank.html" style="width: 975px; display: block;"></iframe>
+</div>
+
+<div id="wizardBarBottom" style="display: none;">
+	<div class="bottomWizardButtons_left">
+		<button id="wizardBarPreviousBottom" class="wizard_button_left" title="Select an Account" style="display: block;">&lt; Go Back</button>
+	</div>
+	<div class="bottomWizardButtons_right">
+		<button id="wizardBarNextBottom" class="wizard_button_right" title="Finish wizard" style="display: block;">Next &gt;</button>
+	</div>
+</div>
+
+<div id="wb_darkoverlay" class="working_box_animation" classname="working_box_animation" style="display: none; width: 0px; height: 0px; left: 0px; top: 0px;"></div></div>
+</span>
+
+
+<div id="alertify-cover" class="alertify-cover alertify-cover-hidden"></div><div id="alertify-logs" class="alertify-logs"><div class="alertify-logs alertify-logs-bottom-right"></div><div class="alertify-logs alertify-logs-top"></div></div></body></html>

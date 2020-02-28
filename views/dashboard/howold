@@ -1,0 +1,659 @@
+
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="utf-8" />
+	<base href="http://webpicid.com/webpicid/index.php/how-it-works" />
+	<meta name="description" content="Online transaction security and verified online identity services." />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>How It Works</title>
+	<link href="/webpicid/templates/webpicid02/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/webpicid/templates/webpicid02/css/template.css?f048042f4bc6ca994e1a01e6143b7a6c" rel="stylesheet" />
+	<link href="/webpicid/templates/webpicid02/css/user.css?f048042f4bc6ca994e1a01e6143b7a6c" rel="stylesheet" />
+	<link href="/webpicid/media/jui/css/chosen.css?f048042f4bc6ca994e1a01e6143b7a6c" rel="stylesheet" />
+	<link href="/webpicid/media/com_finder/css/finder.css?f048042f4bc6ca994e1a01e6143b7a6c" rel="stylesheet" />
+	<script src="/webpicid/media/jui/js/jquery.min.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/jui/js/jquery-noconflict.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/jui/js/jquery-migrate.min.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/system/js/caption.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/jui/js/bootstrap.min.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/templates/webpicid02/js/template.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/jui/js/chosen.jquery.min.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script src="/webpicid/media/jui/js/jquery.autocomplete.min.js?f048042f4bc6ca994e1a01e6143b7a6c"></script>
+	<script>
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Type or select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		}
+	});
+	
+jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword89');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Search ...')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform89').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced89');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword89').autocomplete({
+		serviceUrl: '/webpicid/index.php/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});
+	</script>
+
+	<!--[if lt IE 9]><script src="/webpicid/media/jui/js/html5.js"></script><![endif]-->
+    
+</head>
+<body class="site com_content view-article no-layout no-task itemid-107 fluid">
+          
+
+	<!-- Body -->
+	<div class="body">
+
+    <div class="container-fluid">
+			<!-- Header -->
+         <header class="header" role="banner">
+				<div class="header-inner clearfix">
+     
+        <div class="">
+						<ul class="nav menu nav-tabs pull-right">
+<li class="item-101"><a href="/webpicid/index.php" >Home</a></li><li class="item-106"><a href="/webpicid/index.php/about-us" >About Us</a></li><li class="item-107 current active"><a href="/webpicid/index.php/how-it-works" >How It Works</a></li><li class="item-108"><a href="/webpicid/index.php/member-services" >Member Services</a></li><li class="item-109"><a href="/webpicid/index.php/merchant-services" >Merchant Services</a></li></ul>
+<p>
+<a href="http://webpicid.com">
+<img src="/webpicid/images/logo3.png" width="90" height="90" alt="logo WebPicID.com">&nbsp;<span class="lead">WebPicID.com</span>
+</a>
+</p>
+<div class="finder pull-left">
+	<form id="mod-finder-searchform89" action="/webpicid/index.php/component/finder/search" method="get" class="form-search" role="search">
+		<label for="mod-finder-searchword89" class="element-invisible finder pull-left">Search</label><input type="text" name="q" id="mod-finder-searchword89" class="search-query input-medium" size="25" value="" placeholder="Search ..."/>
+						<input type="hidden" name="Itemid" value="107" />	</form>
+</div>
+
+		</div>
+	</div>
+		</header>
+                      
+			                        
+                        <div class="span12 text-center">
+			
+                        </div>
+                        
+
+			
+                        <div class="row-fluid">
+								<main id="content" role="main" class="span9">
+					<!-- Begin Content -->
+					
+					<div id="system-message-container">
+	</div>
+
+					<div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+		
+						
+		
+						<dl class="article-info muted">
+
+		
+			<dt class="article-info-term">
+							</dt>
+
+			
+			
+			
+										
+			
+		
+					
+			
+						</dl>
+	
+	
+		
+								<div itemprop="articleBody">
+		<h1>How does it Work?&nbsp;</h1>
+<h2><a href="http://www.webpicid.com/index.php?id=42">Act of Agency</a></h2>
+<div>The Agent must:The Agent must:
+<div>
+<p>&nbsp;</p>
+<p>A&nbsp; &nbsp; Be at least 18 years old, provide their first name, last name,&nbsp; and email address.</p>
+<p style="text-align: justify;">B&nbsp; &nbsp; Agree to the WebPicID Terms and Conditions and the Privacy Policy.</p>
+<p style="text-align: justify;">C&nbsp; &nbsp; Look at the original three pieces of identification provided by the new Member.</p>
+<p style="text-align: justify;">D&nbsp; &nbsp; Look at the information entered on the Identification Document screens by the new Member.</p>
+<p>E&nbsp; &nbsp; Press the "I Affirm" button to affirm that information on screen matches the ID documents.</p>
+<p style="text-align: justify;">The pressing of the "I Affirm" button concludes the Act of Agency.</p>
+<p style="text-align: justify;">An email is sent to the Agent to verify their email address with instructions on how continue.</p>
+<p style="text-align: justify;">The Agent's WebPicID account is credited an Agency fee once the Membership fee is paid.</p>
+</div>
+</div>
+<h2 style="text-align: justify;"><a href="http://www.webpicid.com/index.php?id=43">Family Protection</a>&nbsp;</h2>
+<div style="text-align: justify;">A family is defined as at least one adult and one other individual living at the same residence.&nbsp;
+<p>A family is defined as at least one adult and one other individual living at the same residence.&nbsp;</p>
+<p>Members can add everyone in the family regardless of their age as a Member.</p>
+<p>Dependent Members can use WebPicID services with Parent consent.</p>
+</div>
+<h2><a href="http://webpicid.com/index.php?id=103">Identity Theft Fraud Loss Reduction<strong>&nbsp;</strong></a>&nbsp;</h2>
+<div style="text-align: justify;">Individuals are sent a Notification 24/7 every time their identity is used at a WebPicID Merchant.<br />Individuals are sent a Notification 24/7 every time their identity is used at a WebPicID Merchant.<br />WebPicID Merchants advise individuals that they protect them from Identity Theft Fraud Losses.</div>
+<div style="text-align: justify;">The individual is asked to log on to WebPicID, verify their identity, and respond to the Notification.
+<p>There are only four responses to a Notification:</p>
+<p>Authorized, Declined, Fraud, Ignored.In all cases, there is no fraud loss amount to either party.</p>
+<p>Members can use Safe Purchase to have WebPicID make the payment for online items.</p>
+</div>
+<h2><a href="http://www.webpicid.com/index.php?id=119">Member Sign Up process&nbsp;</a></h2>
+<div style="text-align: justify;">Individuals who are at least 18 years old can sign up to become a Member and use the WebPicID services.</div>
+<div style="text-align: justify;">Individuals under 18 years old can only become members via the Family Protection Service.</div>
+<div style="text-align: justify;">Individuals sign up to become a Member and pay $25.00 annually to use the services.</div>
+<div style="text-align: justify;">Individuals agree to the WebPicID Terms and Conditions and Privacy Policy.</div>
+<div style="text-align: justify;">Members provide 3 pieces of identification, a picture, and an witness over 18 years of age to Affirm their identity.&nbsp;</div>
+<h2><a href="http://www.webpicid.com/index.php?id=120">Merchant Sign Up</a>&nbsp; Cost starts at $100.00 a year</h2>
+<div style="text-align: justify;">Any authorized employee can sign up their organization by:&nbsp; completing the Sign Up form.</div>
+<div>&nbsp;</div>
+<p>The employee agrees to:</p>
+<div style="text-align: justify;">Complete the Merchant Sign Up form</div>
+<div style="text-align: justify;">Sign Up with WebPicID as Merchant Employee Member, MEM.</div>
+<div style="text-align: justify;">Act as the Administrator and contact person for WebPicID.</div>
+<div style="text-align: justify;">Provide KYC regulation documents to identify the organization.</div>
+<div style="text-align: justify;">Receive all WebPicID invoices and arrange for payment.</div>
+<div>&nbsp;</div>
+<p>These are the Documents and Information required for most organizations.Receives all WebPicID&nbsp;</p>
+<div style="text-align: justify;">The owners or the Board of Directors must ratify the Administrator's position and ability to act for the organization.</div>
+<div style="text-align: justify;">Employees using WebPicID services must become MEM's.&nbsp;</div>
+<h2><a href="http://www.webpicid.com/index.php?id=41">Notification</a>&nbsp;&nbsp;</h2>
+<div style="text-align: justify;">"Notification" is sent 24/7 to an individual when they make a purchase at WebPicID Merchant.</div>
+<div style="text-align: justify;">The recipient of a Notification has four choices: Authorize, Decline, Fraud, or Ignore.</div>
+<div style="text-align: justify;">In all cases there is no fraud loss to either party.&nbsp;</div>
+<h2><a href="http://www.webpicid.com/index.php?id=125">Pay_Code</a>&nbsp;</h2>
+<div style="text-align: justify;">Every Member is given a Pay_code when they Sign Up.</div>
+<div style="text-align: justify;">The Pay_code appears on deposit slips provided by WebPicID for Members to print or take a picture.</div>
+<div style="text-align: justify;">WebPicID uses the Pay_code to identify Member payments.&nbsp;</div>
+<h2><a href="http://www.webpicid.com/index.php?id=97">Payment Options</a>&nbsp;&nbsp;</h2>
+<div style="text-align: justify;">The deposit can be made in cash any of the bank branches that WebPicID deals with.</div>
+<div style="text-align: justify;">Deposit slips with the Member IDCode can be printed or filled out at the bank.
+<p>Give the deposit slip to the teller. They will give you a receipt.<br />Or&nbsp;<br />Fill out the deposit slip in the bank from the picture of the deposit slip on your phone.</p>
+</div>
+<div style="text-align: justify;">Make sure your deposit code is on the left side of the signature box and readable,&nbsp;</div>
+<div style="text-align: justify;">Present the deposit slip and the cash to the teller.</div>
+<p>The teller will give you a receipt.<br />Notify WebPicID as soon as possible about the deposit.</p>
+<p>USA&nbsp; &nbsp; &nbsp; &nbsp;</p>
+<div style="text-align: justify;">Bank of America&nbsp;</div>
+<div style="text-align: justify;">TDBank&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+<div style="text-align: justify;">Wells Fargo</div>
+<p>Canada&nbsp;</p>
+<div style="text-align: justify;">Bank of Montreal&nbsp;</div>
+<div style="text-align: justify;">TD&nbsp;Canada Trust&nbsp;</div>
+<div style="text-align: justify;">EMT from any Canadian bank</div>
+<h2>Payment reporting</h2>
+<p>Log On to WebPicID and select Report a Payment</p>
+<table style="width: 234px;" cellspacing="0" cellpadding="4"><colgroup><col width="51" /> <col width="57" /> <col width="100" /> </colgroup>
+<tbody>
+<tr valign="top">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 51px;">
+<p>Bank</p>
+</td>
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 57px;">
+<p>Amount</p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.1cm; width: 100px;">
+<p>Date and time</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 51px; height: 10px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 57px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding: 0cm 0.1cm 0.1cm; width: 100px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>SEND</p>
+<p>Report an Email Money transfer, EMT</p>
+<h2>Log On to WebPicID and select</h2>
+<h2>Report an EMT Payment</h2>
+<table style="width: 322px; height: 107px;" cellspacing="0" cellpadding="4"><colgroup><col width="59" /> <col width="210" /> </colgroup>
+<tbody>
+<tr valign="top">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 59px;">
+<p>Amount</p>
+</td>
+<td style="border: 1px solid #000000; padding: 0.1cm; width: 210px;">
+<p>Answer to the security question</p>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 59px; height: 10px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding: 0cm 0.1cm 0.1cm; width: 210px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2>SUBMIT</h2>
+<h2><a href="http://www.webpicid.com/index.php?id=62">Pre-Register</a></h2>
+<p>Sign Up as a Member but do not pay until you need the services.</p>
+<div style="text-align: justify;">Why Pre-Register?</div>
+<div style="text-align: justify;">To enhance your protection from identity theft fraud loss.</div>
+<div style="text-align: justify;">A possible id theft fraud may be caught earlier than later.</div>
+<div style="text-align: justify;">The loss may be averted because WebPicID knows who you are.</div>
+<h2><a href="http://www.webpicid.com/index.php?id=74">Refer an organziation to WebPicID</a></h2>
+<p>Members who have a connection to an online organization can refer the organization to WebPicID.</p>
+<p>The referring Member receives 10% of the net Identity Theft Fraud Loss Reduction revenue for that Merchant.</p>
+<h2><a href="http://www.webpicid.com/index.php?id=37">Safe Purchase</a></h2>
+<h2>This is a non-bank card way to have WebPicID make online purchases for MembersThe Member selects items that the want to buy online asks WebPicID via Safe Purchase to pay for the items without providing a bank card.The Member logs on to a vendor site and fills a online cart.Once the have a total including taxes and shipping they log on to WebPicID.com and select Report a Safe Purchase.Report a Safe PurchaseEnter the amount the vendor name, the vendor URL, the vendor cart log on and password.SUBMIT<br />The Member must have sufficient funds in their WebPicID account to pay for the items.WebPicID log on to the shopping cart and makes the payment.The goods are sent directly to the Member by the Merchant.If the Member is under 18 years old. the items are shipped to the Parent.</h2>
+<table style="width: 510px;" cellspacing="0" cellpadding="4"><colgroup><col width="59" /> <col width="102" /> <col width="101" /> <col width="91" /> <col width="115" /> </colgroup>
+<tbody>
+<tr valign="top">
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 59px;">
+<h2>Amount</h2>
+</td>
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 102px;">
+<h2>Vendor</h2>
+</td>
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 101px;">
+<h2>Vendor&nbsp;URL</h2>
+</td>
+<td style="border-top: 1px solid #000000; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0.1cm 0cm 0.1cm 0.1cm; width: 91px;">
+<h2>Cart Log On</h2>
+</td>
+<td style="border: 1px solid #000000; padding: 0.1cm; width: 115px;">
+<h2>Cart&nbsp; Password</h2>
+</td>
+</tr>
+<tr valign="top">
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 59px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 102px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 101px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: none; padding: 0cm 0cm 0.1cm 0.1cm; width: 91px;">&nbsp;</td>
+<td style="border-top: none; border-bottom: 1px solid #000000; border-left: 1px solid #000000; border-right: 1px solid #000000; padding: 0cm 0.1cm 0.1cm; width: 115px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2>SUBMIT&nbsp;</h2>
+<h2><a href="http://www.webpicid.com/index.php?id=121">Secure Message</a></h2>
+<p>This is an online message that no one but the Recipient can read.The message contents and any attachment never leave the secure envelope of the WebPicID Server.The Recipient must Log on to WebPicID to read the message.</p>
+<h2><a href="http://www.webpicid.com/index.php?id=86">Share an organization</a></h2>
+<p>Share the WebPicID service any number of organizations daily.When the organization becomes a WebPicID Member they are asked to name the individual told them about WebPicID.The named Member receives 10% of the net Identity Theft Fraud Loss Reduction revenue for that Merchant.</p>
+<p><a href="http://www.webpicid.com/index.php?id=123">Verified caller IDVerified caller ID</a></p>
+<p>Every day we are inundated with calls from organizations.&nbsp;Some are legitimate and some are fraud.<br />Easy solution - ask them to verify their caller ID through WebPicIDThe Merchant sends a VCID.</p>
+<p>WebPicID delivers it via Secure Message.</p>
+<p>The Member reads the Secure Message and the challenge word.</p>
+<div style="text-align: justify;">The Merchant employee calls back and gives the Member the challenge word.&nbsp;</div>
+<p>&nbsp;</p>
+<p><a href="http://www.webpicid.com/index.php?id=122">Verified Polls, Surveys, or Social Media Posts&nbsp; Merchants can post&nbsp;Polls or Surveys on WebPicID.&nbsp;</a></p>
+<div style="text-align: justify;">Responses are made to the Poll or survey&nbsp;on WebPicID.&nbsp;</div>
+<div style="text-align: justify;">Individuals can Post a social Media release from WebPicID&nbsp;&nbsp;</div>
+<div style="text-align: justify;">This method verifies the identity of the party making the post poll or&nbsp;survey.</div>
+<p>&nbsp;</p>	</div>
+
+	
+							</div>
+
+					
+					<!-- End Content -->
+				</main>
+									<div id="aside" class="span3">
+						<!-- Begin Right Sidebar -->
+						<div class="well  alert-success"><h3 class="page-header">Members</h3><p>Login</p>
+<p>Sign Up</p>
+<p>Pre-Register</p>
+</div><div class="well  alert-info"><h3 class="page-header">Merchants</h3><p>Merchant Login</p>
+<p>Merchant Sign Up</p></div>
+						<!-- End Right Sidebar -->
+					</div>
+							</div>
+			<div class="pull-right">
+				<a href="#" id="back-top">
+					Back to Top				</a>
+			</div>
+
+       </div>
+</div>
+<!--                  
+			<div class="pull-right">
+				<a href="#" id="back-top">
+/*					Back to Top*/
+				</a>
+			</div>
+-->
+                  
+<!-- Footer -->
+	<footer class="footer" role="contentinfo">
+		<div class="container-fluid">
+			<hr />
+			<ul class="nav menu nav-tabs pull-right">
+<li class="item-103"><a href="/webpicid/index.php/terms-and-conditons" >Terms and Conditons</a></li><li class="item-104"><a href="/webpicid/index.php/privacy-policy" >Privacy Policy</a></li><li class="item-102"><a href="/webpicid/index.php/f-a-q" >F.A.Q</a></li></ul>
+
+			<div class="pull-left">
+<!--              &copy; 2020 WebPicID.com-->
+                            
+              &copy; Web Picture Identification Inc., 2008-2020			</div>
+		</div>
+	</footer>
+	
+    
+</body>
+</html>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			
+			<?php
+use yii\helpers\Html;
+use yii\bootstrap\ActiveForm;
+//header("Refresh: 60;url='".$_SERVER['REQUEST_URI']."'");
+/* @var $this yii\web\View */
+////echo $this->render('_slider',['data'=>$data]);
+$this->title = 'How does it Works ';
+$model = \app\models\UserProfile::findProfileByUserId(Yii::$app->user->id);
+$name=$model->first_name." ".$model->last_name;
+?>
+<div class="container">
+	<div class="row">
+		<div itemprop="articleBody">
+			<h2>How does it Works</h2>
+			<div></div>
+			<h2>Act of Agency&nbsp;</h2>
+			<div></div>
+			<div>Agents must be a tleast 18 years old.</div>
+			<div>The Act of Agency is limited to the Agent:</div>
+			<div>Providing their name and email address.</div>
+			<div>Agreeing to the WebPicID Terms and Conditions and the Privacy Policy.</div>
+			<div>Looking at the New Member's three pieces of identification and the information entered in the Identification Document and Agent Affirmation Page.</div>
+			<div>Verifying a New Member's identity by pressing the I AFFIRM button.</div>
+			<p>Closing the page without pressing the I AFFIRM button ends the Act of Agency incomplete.</p>
+			<div>The pressing of the I AFFIRM button concludes the Act of Agency.</div>
+			<div>&nbsp;&nbsp;</div>
+			<div>Agents are sent an email asking them to verify their email address.</div>
+			<div>The email advises the Agent to Log On to WebPicID to verify their identity.</div>
+			<div>Agents are paid a fee for Acting as an Agent once they verify their identity.</div>
+			
+			
+			<div>An adult Member must activate the Family Protection and agree to act as the Parent for all family members.
+				<p>The Parent select Family Protection and add the members of the family regardless of age as Members.</p>
+				<p><span style="color: inherit; font-family: inherit; font-size: 22px;">Administrator Guardian Parent herein AGP&nbsp;</span></p>
+			</div>
+			<div>Members using the Family Protection Section act as the Parent for the family.&nbsp;</div>
+			
+				<p>Only the Parent can authorise the use of Safe Purchase by a dependant by transferring funcs to the dependant's WebPicID account.</p>
+				<h2>Deposit Code&nbsp;</h2>
+			</div>
+			<div>Every Member and Adult Family Member is given a pay_code when they Sign Up.&nbsp;</div>
+			<div>WebPicID only accepts cash deposits we suggest making payments of at least $50.00.
+				<p>Payment are made in cash at any bank branch that WebPicID has an account.&nbsp;</p>
+			</div>
+			<div>Member print their pay-code on the signature line if their deposit slip to identify their payments faster.&nbsp;</div>
+			<p>Report all payments as soon as possible.</p>
+			<h2>Family Protection&nbsp;</h2>
+			<div>A family is defined as at least one adult and one other individual living at the same residence.&nbsp;</div>
+			<div>Members can add everyone in the family regardless of their age.&nbsp;</div>
+			
+			<p>All items purchased by a Dependent via Safe Purchase are shipped to the Parent.</p>
+			<div><span style="color: inherit; font-family: inherit; font-size: 22px;">How to make a deposit</span></div>
+			<div>WebPicID has an account at the following bank branches</div>
+			<div>&nbsp;</div>
+			<div><span style="color: inherit; font-family: inherit; font-size: 18px;">United States of America</span></div>
+			<div></div>
+			<p>Bank of America&nbsp; &nbsp; &nbsp;Cash Only</p>
+			<p>TDBank&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cash Only</p>
+			<div>Wells Fargo&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Cash Only</div>
+			<p>&nbsp;</p>
+			<h3>Canada</h3>
+			<p>TD Canada Trust&nbsp; &nbsp; &nbsp;Cash Only</p>
+			<p>Bank of Montreal&nbsp; &nbsp; Cash Only</p>
+			<p>EMT</p>
+			<p>From all Canadian Banks</p>
+			<h2>Identity Theft Fraud Loss Reduction&nbsp;</h2>
+			<div>Individuals are sent a Notification 24/7 by email from WebPicID every time their identity is used at a WebPicID Merchant.</div>
+			<div>WebPicID Merchants advise individuals that they protect them from Identity Theft Fraud Losses by having WebPicID.com verify their identity.</div>
+			<div>The individual is asked to log on to WebPicID, verify their identity, and respond to the the Notification.</div>
+			<div></div>
+			<div>The second way Members can protect against Identity theft fraud losses is to Safe Purchase.</div>
+			<div></div>
+			<p><span style="color: inherit; font-family: inherit; font-size: 22px;">Member Sign Up process</span></p>
+			<p>Any individual regardless of age can become a Member and use the WebPicID services.</p>
+			<p>Individuals sign up to become a Member and pay $25.00 annually to use the services.</p>
+			<h3>Process</h3>
+			<h3>Register Page</h3>
+			<p>&nbsp; &nbsp; &nbsp;First name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;Last name</p>
+			<p>&nbsp; &nbsp; &nbsp;Email address&nbsp; &nbsp; &nbsp; &nbsp;Country</p>
+			<p>&nbsp; &nbsp; &nbsp;Street address&nbsp; &nbsp; &nbsp;CIty</p>
+			<p>&nbsp; &nbsp; &nbsp;State/Provicne&nbsp; &nbsp; &nbsp;ZIP/PostalCode&nbsp;</p>
+			<p>&nbsp; &nbsp; &nbsp;Home Number&nbsp; &nbsp;&nbsp;Cell Phone Number</p>
+			<p>&nbsp; &nbsp; &nbsp;Age&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sex</p>
+			<p>&nbsp; &nbsp; &nbsp;_ I Agree to the WebPicID Terms and Conditions and Privacy Policy</p>
+			<p>&nbsp; &nbsp; &nbsp;Please activate you Web Camera and Microphone</p>
+			<h3>Picture Page</h3>
+			<p>&nbsp; &nbsp; &nbsp;Take a picture</p>
+			<h3>Identification Document and Agent Affirmation page</h3>
+			<p>&nbsp; &nbsp; &nbsp;Individuals who want to become Members need to provide 4 things;&nbsp;</p>
+			<p>&nbsp; &nbsp; &nbsp;Three piceces of identification</p>
+			<p>&nbsp; &nbsp; &nbsp;1 Primary government issued Picture Idenitfication I.E. Drivers license, passport, or other picture ID.&nbsp;</p>
+			<p>&nbsp; &nbsp; &nbsp;2 Secondary government issued Idenitfication I.E. Birth certificate or unused Primary ID</p>
+			<p>&nbsp; &nbsp; &nbsp;3 Address Identification&nbsp; I.E any Utility bill or staement of account dates in the last 20 days.</p>
+			<p>&nbsp; &nbsp; &nbsp;4 A&nbsp;witness who is at least 13 years old. The witness is paid a fee to Act as an Agent for WebPicID.</p>
+			<h2 style="margin-bottom: 0cm; line-height: 100%;">Member Sign Up process</h2>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Any individual regardless of age can become a Member and use the WebPicID services.</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Individuals sign up to become a Member and pay $25.00 annually to use the services.</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;individuals who want to become Members need to provide 4 things;&nbsp; &nbsp; &nbsp; &nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Three pieces of identification</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;1 Primary government issued Picture Identification I.E. Drivers license, passport, or other.</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;2 Secondary government issued Identification I.E. Birth certificate or unused Primary ID</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;3 Address Identification&nbsp; I.E any Utility bill or statement of account dates in the last 20 days.</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;4 A&nbsp;witness who is at least 13 years old. The witness is paid a fee to Act as an Agent for WebPicID.</p>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Process</h3>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Register Page</h3>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp; First name&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Last name</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Email address&nbsp; &nbsp; &nbsp;Country</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Street address</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; City&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; State/Provicne ZIP/PostalCode</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Home Number&nbsp; &nbsp;Cell Phone Number</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp;Age&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sex</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">_</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">I Agree to the WebPicID Terms and Conditions and Privacy Policy</p>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">Please activate you Web Camera and Microphone</p>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Picture Page</h3>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Take a picture</p>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Identification Document and Agent Affirmation page</h3>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Primary Identification Document</h3>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Date Issued&nbsp; &nbsp; &nbsp; &nbsp;Date Expired</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Serial Number&nbsp; Type Type</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Issuing Body</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Secondary Identification Document</h3>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Unused Primary ID</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;or a Birth Certificate (Required for children)</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Date Issued&nbsp; &nbsp; &nbsp; &nbsp;Date Expired</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Serial Number Type</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Issuing Body</p>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Address Identification Document&nbsp; &nbsp; &nbsp;Utility bill or Statement of account dated in the last 30 days,</h3>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;Name of Issuing Body&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Serial/Account number</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Address of issuing body&nbsp; &nbsp; &nbsp; &nbsp;Phone number of issuing body</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; Name of Member Matches Address of Member matches</p>
+			<p>&nbsp;</p>
+			<h3 style="margin-bottom: 0cm; line-height: 100%;">Agent Section</h3>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp; Agent First Name&nbsp; &nbsp; &nbsp; Agent Last Name&nbsp; &nbsp; &nbsp; Agent Email address</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp; _ I Agree to the WebPicID Terms and Conditions and Privacy Policy</p>
+			<p>&nbsp;</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;I, First Name Last Name, email address, hereby Affirm that</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;the information on the original identification documents</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;and the information entered into the Identification Document and Agent Affirmation page match,</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;I AFFIRM</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;This completes your Act of Agency.</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;An email has been sent to you to verify your email address</p>
+			<p style="margin-bottom: 0cm; line-height: 100%;">&nbsp; &nbsp; &nbsp;and with instruction on how to continue.</p>
+			<p>&nbsp;</p>
+			<h2>Merchant Sign Up&nbsp;</h2>
+			<div>Any authorized employee can sign up their organization by:
+				<p>The employee agrees to Act as the Administrator and contact person for WebPicID.</p>
+				<p>A&nbsp; &nbsp; &nbsp;Completing the Merchant Sign Up form</p>
+				<p>B&nbsp; &nbsp; &nbsp;Signing Up with WebPicID</p>
+				<p>C&nbsp; &nbsp; &nbsp;Verifying their identity</p>
+				<p>Please review the Documents and Information required for most organizations.</p>
+				<div>
+					<p>The Board of Directors must ratify the&nbsp;Administrator's&nbsp;position and ability to act for the organization.</p>
+					<p>The Board of Directors, Officers of the organizaton, and employees using WebPicID services must beceome MEM's.</p>
+					<p>MEM's Sign Up and verify their identity The Administrator sets their access level.</p>
+				</div>
+			</div>
+			<h2>Notification&nbsp;</h2>
+			<div>A "Notification" is sent 24/7 to individuals when their identity has been used at a WebPicID Merchant for a sale or transaction.&nbsp;</div>
+			<div></div>
+			<div>The recipient of a Notification has four choices:&nbsp;</div>
+			<div></div>
+			<div>Authorize&nbsp; &nbsp; &nbsp;&nbsp;<span style="white-space: pre;"> </span>The individual verifies their identity with WebPicID and Authorizes the sale or Transaction.&nbsp;</div>
+			<div><span style="white-space: pre;"></span></div>
+			<div>Decline&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="white-space: pre;"> </span>The individual verifies their identity with WebPicID and Declined the sale.&nbsp;</div>
+			<div><span style="white-space: pre;"> </span>Ignore&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The individual missed or ignored the Notification.&nbsp;</div>
+			<div><span style="white-space: pre;"> </span>Fraud&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;The individual verifies their identity with WebPicID and declares a Fraud.&nbsp;</div>
+			<div><span style="white-space: pre;"> </span>
+			<div>
+				<p>The goods, services, or transaction is not released by the Merchant until WebPicID sends the Authorise code to the Merchant.</p>
+				<p>In all cases there is no fraud loss to either party.</p>
+				<h2>Payment Options&nbsp;</h2>
+			</div>
+		</div>
+		<div>Deposit cash only</div>
+		<div>
+			<p>The minimum deposit is $30.00 any of the bank branches that WebPicID deals with.</p>
+		</div>
+		<div>USA&nbsp; &nbsp; &nbsp;Bank of America&nbsp;</div>
+		<div>USA&nbsp; &nbsp; &nbsp;TDBank&nbsp;</div>
+		<div>USA&nbsp; &nbsp; &nbsp;Wells Fargo&nbsp;</div>
+		<div>&nbsp;</div>
+		<div>Canada&nbsp; Bank of Montreal</div>
+		<div>Canada&nbsp; TD Canada Trust</div>
+		<div>&nbsp;</div>
+		<p>Canada&nbsp; EMT from any Canadian bank</p>
+		<p>Canada&nbsp; Bank of Montreal Bill Payment</p>
+		<h2>Pre-Register</h2>
+		<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sign Up and provide everything including ID except a witness or payment.</div>
+		<h2>Refer an organization</h2>
+		<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Register and organization.</div>
+		<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Sell them on WebPicID.</div>
+		<div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Have them name you as their contact person.&nbsp; &nbsp;&nbsp;</div>
+		<h2>Report a Deposit</h2>
+		<div>Members need to report deposits as soon as they are made to ensure prompt credit.</div>
+		<p>Once you have a Receipt of a Deposit from a bank.</p>
+		<p>Take a picture with your phone</p>
+		<p>Write your deposit code on the receipt in a blank spot.</p>
+		<p>Take a picture of the receipt that shows the all of the details printed on the receipt.&nbsp;</p>
+		<p>Log on to WebPicID va the phone</p>
+		<p>Select Report a Payment</p>
+		<p>Enter the amount&nbsp; &nbsp; &nbsp;Select the bank&nbsp; &nbsp; &nbsp;&nbsp;Attach the picture of the receipt file.</p>
+		<p>Look at everything on the screen.&nbsp;</p>
+		<p>If the picture is blurry, take another clear picture that is readable.</p>
+		<p>Replace the blurry picture with the new Picture.</p>
+		<p>Look at everything on the screen.</p>
+		<p>If it is all clear press SUBMIT</p>
+		<h2>Safe Purchase&nbsp;</h2>
+		<p>This is a non bank card way to have WebPicID make online purchases for Members and their families</p>
+		<p>Find an item or items that you want to buy.</p>
+		<p>Take a screen shot of each item and save the pictures where you get them later.</p>
+		<h4>TIP Use a new directory for each purchase</h4>
+		<p>Go through the sale process to the shopping cart where the totals including tax and shipping are displayed.</p>
+		<p>Take a screen shot of shopping card page.</p>
+		<p>Go to the top of the page and copy the URL of the site selling the items.</p>
+		<p>Paste the information into Site URL</p>
+		<p>Paste each item into a box by pressing the + sign for another box until every item is listed.</p>
+		<p>Enter the total amont of the sale. These funds must be on deposit before WebPicID can make the purchase.</p>
+		<p>The APG can set an amount for a child to spend. WebPicID will make the purchase and debit the APG account.</p>
+		<p>The Amount can by set to reoocur from time to time for each child.</p>
+		<p>* AGP can look at suggested plans for allowance spending and amounts and frequency. Teach you children to save, donate ,and spend.</p>
+		<p><span style="color: inherit; font-family: inherit; font-size: 22px;">Secure Message&nbsp;</span></p>
+		<p>A Secure Message can be sent to anyone.</p>
+		<p>Only a Member can send a Secure Message</p>
+		<p>Secure message ae only sent to one Recipient.</p>
+		<p>Only the Sender and the Recipient can read the Secure Message.</p>
+		<p>The Process:</p>
+		<p>Go to Secure Message</p>
+		<p>Select create a Message</p>
+		<p>Enter the name and email address of the Recipient.</p>
+		<p>Then Subject, body, and attachment(s).</p>
+		<p>Press send</p>
+		<p>The message contents are sent to an In Box for the Recipient on the&nbsp;WebPicID&nbsp;site.</p>
+		<p>They never leave the secure WebPicID Server.</p>
+		<p>The onus is on the sender to notify the recipient that they have a Secure Message.</p>
+		<p>Call, text, email, social media, let them know that they have a secure Message at www.WebPicID.com&nbsp;</p>
+		<p>The Recipient must Log on to WebPicID and verify their identity before they can read the Secure Message.</p>
+		<p>This universal service can be used by individuals and organizations.</p>
+		<p><span style="color: inherit; font-family: inherit; font-size: 22px;">Share an organization&nbsp;</span></p>
+		<p>We use social media to generate Merchant Members.</p>
+		<p>Share the WebPicID service any number of organizations daily.</p>
+		<p>Members receive one poll entry per day until the organization becomes a Merchant Member.&nbsp;</p>
+		<p>The pool is closed, the members with pool entries receive a share of 10% of the ID Theft Fraud Loss Reduction Revenue for 5 years.</p>
+	<h2>&nbsp;</h2>	</div><br><br><br>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>

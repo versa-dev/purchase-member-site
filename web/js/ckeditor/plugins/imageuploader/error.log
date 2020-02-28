@@ -1,0 +1,10 @@
+[08-Feb-2016 12:09:49 Europe/Berlin] PHP Warning:  require(D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader/lang/en.php): failed to open stream: No such file or directory in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\imgbrowser.php on line 25
+[08-Feb-2016 12:09:49 Europe/Berlin] PHP Fatal error:  require(): Failed opening required 'D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader/lang/en.php' (include_path='.;D:\xampp\php\PEAR') in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\imgbrowser.php on line 25
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: username in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\check_permission.php on line 9
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: password in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\check_permission.php on line 9
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: imagebrowser1 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 24
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: loginsite1 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 141
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: loginsite2 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 142
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: loginsite3 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 144
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: loginsite4 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 146
+[08-Feb-2016 12:11:14 Europe/Berlin] PHP Notice:  Undefined variable: loginsite5 in D:\xampp\htdocs\dotsquares\hcnew.local\web\js\ckeditor\plugins\imageuploader\loginindex.php on line 149

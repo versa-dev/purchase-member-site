@@ -1,0 +1,1440 @@
+[24-Sep-2018 05:26:59 UTC] PHP Notice:  Array to string conversion in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/log/Target.php on line 293
+[24-Sep-2018 05:26:59 UTC] PHP Notice:  Array to string conversion in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/log/Target.php on line 293
+[24-Sep-2018 05:27:08 UTC] PHP Notice:  Array to string conversion in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/log/Target.php on line 293
+[24-Sep-2018 05:27:08 UTC] PHP Notice:  Array to string conversion in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/log/Target.php on line 293
+[14-Oct-2018 03:43:23 UTC] PHP Fatal error:  Class 'app\models\AgentIdentificationSearch' not found in /home/ariseit/public_html/demo/controllers/AgentIdentificationController.php on line 38
+[14-Oct-2018 15:07:06 UTC] PHP Fatal error:  Class 'app\modules\backend\controllers\Yii' not found in /home/ariseit/public_html/demo/modules/backend/controllers/DefaultController.php on line 21
+[14-Oct-2018 15:14:40 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ariseit/public_html/demo/modules/backend/controllers/DefaultController.php on line 72
+[14-Oct-2018 15:15:18 UTC] PHP Fatal error:  Class 'app\modules\backend\controllers\app\models\AgentIdentification' not found in /home/ariseit/public_html/demo/modules/backend/controllers/DefaultController.php on line 72
+[20-Oct-2018 13:05:53 UTC] PHP Fatal error:  Class 'app\components\GeneralHelper' not found in /home/ariseit/public_html/demo/controllers/AgentIdentificationController.php on line 80
+[20-Oct-2018 14:22:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ariseit/public_html/demo/modules/backend/views/user/view.php on line 42
+[30-Oct-2018 13:35:45 UTC] PHP Fatal error:  Call to undefined function app\controllers\login() in /home/ariseit/public_html/demo/controllers/AgentIdentificationController.php on line 102
+[31-Oct-2018 02:56:19 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/AgentIdentification.php on line 3
+[31-Oct-2018 02:56:26 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/AgentIdentification.php on line 3
+[31-Oct-2018 02:56:51 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/AgentIdentification.php on line 3
+[31-Oct-2018 02:57:16 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/AgentIdentification.php on line 3
+[02-Nov-2018 04:18:49 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/SignupForm.php on line 2
+[02-Nov-2018 04:18:53 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/SignupForm.php on line 2
+[02-Nov-2018 04:19:29 UTC] PHP Fatal error:  Namespace declaration statement has to be the very first statement in the script in /home/ariseit/public_html/demo/models/SignupForm.php on line 2
+[04-Nov-2018 04:12:56 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/ariseit/public_html/demo/web/phpinfo.php on line 2
+[04-Nov-2018 05:02:33 UTC] PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /home/ariseit/public_html/demo/web/phpinfo.php on line 2
+[24-Nov-2018 16:27:51 UTC] PHP Parse error:  syntax error, unexpected 'Save' (T_STRING), expecting ']' in /home/ariseit/public_html/demo/views/agent-identification/_form.php on line 111
+[28-Nov-2018 02:22:12 UTC] PHP Fatal error:  Class 'app\components\MessageHelper' not found in /home/ariseit/public_html/demo/views/message/send-view.php on line 43
+[28-Nov-2018 15:05:16 UTC] PHP Fatal error:  Call to a member function getUserRoles() on null in /home/ariseit/public_html/demo/controllers/SiteController.php on line 303
+[30-Nov-2018 02:49:14 UTC] PHP Fatal error:  Class 'himiklab\yii2\recaptcha\ReCaptcha' not found in /home/ariseit/public_html/demo/views/site/contact.php on line 87
+[30-Nov-2018 02:49:52 UTC] PHP Fatal error:  Call to a member function getUserRoles() on null in /home/ariseit/public_html/demo/controllers/SiteController.php on line 303
+[30-Nov-2018 02:52:11 UTC] PHP Fatal error:  Call to a member function getUserRoles() on null in /home/ariseit/public_html/demo/controllers/SiteController.php on line 303
+[30-Nov-2018 02:52:18 UTC] PHP Fatal error:  Call to a member function getUserRoles() on null in /home/ariseit/public_html/demo/controllers/SiteController.php on line 303
+[30-Nov-2018 02:52:24 UTC] PHP Fatal error:  Call to a member function getUserRoles() on null in /home/ariseit/public_html/demo/controllers/SiteController.php on line 303
+[13-Dec-2018 04:07:34 UTC] PHP Parse error:  syntax error, unexpected '$myRegExp' (T_VARIABLE), expecting function (T_FUNCTION) in /home/ariseit/public_html/demo/models/SignupForm.php on line 35
+[24-Dec-2018 17:15:25 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/ariseit/public_html/demo/models/AgentIdentification.php on line 69
+[04-Jan-2019 07:30:55 UTC] PHP Fatal error:  Class 'UserProfile' not found in /home/ariseit/public_html/demo/views/dashboard/welcome.php on line 8
+[04-Jan-2019 07:31:37 UTC] PHP Fatal error:  Class 'UserProfile' not found in /home/ariseit/public_html/demo/views/dashboard/welcome.php on line 8
+[04-Jan-2019 07:31:45 UTC] PHP Fatal error:  Class 'UserProfile' not found in /home/ariseit/public_html/demo/views/dashboard/welcome.php on line 8
+[18-Jan-2019 07:00:50 UTC] PHP Fatal error:  Cannot redeclare app\controllers\DashboardController::actionConfirm() in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 269
+[19-Jan-2019 05:16:44 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ariseit/public_html/demo/modules/backend/views/account-statement/view.php on line 52
+[27-Jan-2019 05:38:30 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:38:42 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:40:02 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:40:05 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:40:18 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:41:57 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 283
+[27-Jan-2019 05:42:43 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 282
+[27-Jan-2019 05:47:29 UTC] PHP Fatal error:  Cannot use [] for reading in /home/ariseit/public_html/demo/controllers/DashboardController.php on line 281
+[27-Jan-2019 06:28:55 UTC] PHP Fatal error:  Access to undeclared static property: Yii::$user in /home/ariseit/public_html/demo/web/themes/vuportal/views/layouts/inner_header.php on line 15
+[28-Feb-2019 16:05:09 UTC] PHP Fatal error:  Call to undefined method Yii::app() in /home/ariseit/public_html/demo/modules/backend/views/safe-purchase/view.php on line 13
+[08-Mar-2019 03:50:21 UTC] PHP Fatal error:  Class 'User' not found in /home/ariseit/public_html/demo/views/dashboard/index.php on line 20
+[21-Mar-2019 06:23:12 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING) in /home/ariseit/public_html/demo/views/dashboard/profile.php on line 70
+[21-Mar-2019 06:48:40 UTC] PHP Parse error:  syntax error, unexpected 'answer' (T_STRING) in /home/ariseit/public_html/demo/views/dashboard/profile.php on line 17
+[21-Mar-2019 06:51:05 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:52:41 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:55:13 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:55:49 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:55:55 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:56:08 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:56:10 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[21-Mar-2019 06:59:24 UTC] PHP Fatal error:  Class 'ProfileQuestionAnswer' not found in /home/ariseit/public_html/demo/views/dashboard/profile.php on line 17
+[24-Mar-2019 05:05:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 48
+[24-Mar-2019 05:07:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 41
+[24-Mar-2019 05:07:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 49
+[24-Mar-2019 05:10:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 49
+[24-Mar-2019 05:20:12 UTC] PHP Parse error:  syntax error, unexpected 'id' (T_STRING), expecting ']' in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 40
+[24-Mar-2019 05:20:45 UTC] PHP Parse error:  syntax error, unexpected '$value' (T_VARIABLE), expecting ']' in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 40
+[24-Mar-2019 06:10:36 UTC] PHP Parse error:  syntax error, unexpected ']' in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 42
+[24-Mar-2019 06:10:54 UTC] PHP Fatal error:  Class 'ActiveForm' not found in /home/ariseit/public_html/demo/modules/backend/views/message/all-send-message.php on line 29
+[24-Mar-2019 06:11:13 UTC] PHP Fatal error:  Call to a member function formName() on array in /home/ariseit/public_html/demo/vendor/yiisoft/yii2/helpers/BaseHtml.php on line 2074
+[03-Apr-2019 05:17:52 UTC] PHP Fatal error:  Class 'FamilyProtection' not found in /home/ariseit/public_html/demo/modules/backend/views/user/view.php on line 126
+[28-Apr-2019 04:41:55 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/about-us.php on line 16
+[28-Apr-2019 04:42:08 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 16
+[28-Apr-2019 04:42:14 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/member-service.php on line 16
+[28-Apr-2019 04:42:18 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/merchant-service.php on line 16
+[28-Apr-2019 04:43:55 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/about-us.php on line 16
+[28-Apr-2019 04:45:45 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 16
+[28-Apr-2019 04:46:08 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 20
+[28-Apr-2019 04:46:11 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 20
+[28-Apr-2019 04:46:34 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 20
+[28-Apr-2019 04:46:36 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 20
+[28-Apr-2019 04:46:38 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 20
+[16-May-2019 02:23:01 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 475. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=n35cumvbbbitmdd9unl57t9n93; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973381.0714290142059326171875,
+    'REQUEST_TIME' => 1557973381,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:23:11 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 475. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=27tpncmsd5ojvnm3vtidrp4jh0; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973390.628346920013427734375,
+    'REQUEST_TIME' => 1557973390,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:23:41 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 476. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=33rgtkigloca359a3k0lnnjv62; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973421.1556708812713623046875,
+    'REQUEST_TIME' => 1557973421,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:23:45 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 476. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=1kt7pfk5nb8inpte4o7or133m3; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973424.56949901580810546875,
+    'REQUEST_TIME' => 1557973424,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:23:50 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 476. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=ii71d96nbh64hfnlfi6b1s6h56; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973430.31824398040771484375,
+    'REQUEST_TIME' => 1557973430,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:24:10 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 476. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Component->__get('auth_key')
+#1 [internal function]: app\modules\backend\controllers\UserController->actionSecure()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=fjhe71trejlg44uk288g5674b4; _csrf=936149c99ac60224c57a1ade7b2353770bb6cae6ef94167d1dd1316876aac9cfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22u4m9GLMtaplzcPzhZMOCRuUhIRMCKxSn%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6070',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '283bff1ea77191248df19c1148dfb1a2921bf5b8f3a296ef8ef14f06ce40259a',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973450.0208098888397216796875,
+    'REQUEST_TIME' => 1557973450,
+    'argv' => [],
+    'argc' => 0,
+]
+[16-May-2019 02:32:36 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 476. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\UnknownPropertyException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\UnknownPropertyException))
+#4 {main}
+Previous exception:
+yii\base\UnknownPropertyException: Getting unknown property: app\models\LoginForm::auth_key in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Component.php:154
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Model.php(1026): yii\base\Component->__get('auth_key')
+#1 /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php(476): yii\base\Model->offsetGet('auth_key')
+#2 [internal function]: app\modules\backend\controllers\UserController->actionSecure('')
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('secure', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('backend/user/se...', Array)
+#7 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '178',
+    'HTTP_COOKIE' => 'PHPSESSID=np4ijeptp2chnj3rp2r7m8f2b5; _csrf=608e8ff5d414fc9727ee5fc066034756a7a23e6be1b7603f0dfe7cdc1cea15e1a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%225c96JwQPR70lKw3vHRKEKurVtIgJS0CF%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '43.224.1.198',
+    'REMOTE_PORT' => '6182',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/secure',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/secure',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/secure',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/secure',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1557973955.8793809413909912109375,
+    'REQUEST_TIME' => 1557973955,
+    'argv' => [],
+    'argc' => 0,
+]
+[26-Aug-2019 17:23:49 UTC] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/MessageController.php on line 203. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/MessageController.php on line 203. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(656): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/controllers/MessageController.php(204): yii\base\Application->end()
+#3 [internal function]: app\controllers\MessageController->actionMovemail()
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('movemail', Array)
+#7 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('message/movemai...', Array)
+#8 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#10 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'application/json, text/javascript, */*; q=0.01',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,en-GB;q=0.8',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '26',
+    'HTTP_COOKIE' => 'PHPSESSID=1uraod68sm2sipcmhdvarp9975; _identity=dbba35d40cd434a522a6dcedbdc9d5d0463c5f2d4c2775a539e7ae2f1d4681dfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B176%2C%22TtqiescRJAttRQjJfMLeQsJL5mhXh_Pf%22%2C2592000%5D%22%3B%7D; _csrf=5b9c9fba81dd70ac43097371747cf7610ec2926ab5bef4edbb31490f6e20be82a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226hkDX4dmeyu27PbUAIlojKOlhoA2Z3AE%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/message/index',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_ORIGIN' => 'https://idtflrco.mywhc.ca',
+    'HTTP_X_CSRF_TOKEN' => 'XvuufZ8C6vlHYebk-rAXjbRLFymStSEQz7QVhgNZUepok8U5xzaOlCIYk9bN4HXY9QJ7Rvj-bnyn21S0WWoQrw==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_DNT' => '1',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '58634',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/message/movemail',
+    'REDIRECT_URL' => '/demo_now/web/message/movemail',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/message/movemail',
+    'SCRIPT_URL' => '/demo_now/web/message/movemail',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1566840229.8719120025634765625,
+    'REQUEST_TIME' => 1566840229,
+    'argv' => [],
+    'argc' => 0,
+]
+[29-Aug-2019 02:11:42 America/Edmonton] PHP Fatal error:  Cannot use empty array elements in arrays in /home/idtflrco/public_html/demo_now/models/FamilyProtectionMember.php on line 70
+[04-Sep-2019 01:57:58 America/Edmonton] PHP Fatal error:  Redefinition of parameter $name1 in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 524
+[04-Sep-2019 02:04:37 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 525. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Trying to get property 'username' of non-object in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php:527
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(527): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/home/idtflrco/...', 527, Array)
+#1 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(539): app\controllers\DashboardController->usernamedb('xc', '4r', 1)
+#2 [internal function]: app\controllers\DashboardController->actionCheckUsername()
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('check-username', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('dashboard/check...', Array)
+#7 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '25',
+    'HTTP_COOKIE' => 'PHPSESSID=e379ade5c8f9939f9019823c1ab8ebc5; _csrf=47c27068e549362e5c34e851cbfe629935b60b85ebee43f62dc266a14a124a99a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W58Uc8owYP43w8y_eJOpqt-qZ3QjJxX8%22%3B%7D; _identity=4481db6e26792ad04f4eed48b7fc9c2166e2bdbbacd5256f9eb6e148183f220ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B177%2C%22z2dGzVFGgyRZChCXy9fRIrV3xEVDjIPH%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/family-protection-add',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_X_CSRF_TOKEN' => '_ePUDI9vasg_Qe6L_hslKEHNAqOAQsRwhCVz2fsCrbKq1uxZ7FcFv2YR2riJI1x3JIdN0_E26QHeFiKzsXr1ig==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '1.39.192.32',
+    'REMOTE_PORT' => '17834',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/dashboard/check-username',
+    'REDIRECT_URL' => '/demo_now/web/dashboard/check-username',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/check-username',
+    'SCRIPT_URL' => '/demo_now/web/dashboard/check-username',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1567584276.9224970340728759765625,
+    'REQUEST_TIME' => 1567584276,
+]
+[04-Sep-2019 02:05:04 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 525. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Trying to get property 'username' of non-object in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php:527
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(527): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/home/idtflrco/...', 527, Array)
+#1 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(539): app\controllers\DashboardController->usernamedb('4R', '4r', 1)
+#2 [internal function]: app\controllers\DashboardController->actionCheckUsername()
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('check-username', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('dashboard/check...', Array)
+#7 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#9 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '25',
+    'HTTP_COOKIE' => 'PHPSESSID=e379ade5c8f9939f9019823c1ab8ebc5; _csrf=47c27068e549362e5c34e851cbfe629935b60b85ebee43f62dc266a14a124a99a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W58Uc8owYP43w8y_eJOpqt-qZ3QjJxX8%22%3B%7D; _identity=4481db6e26792ad04f4eed48b7fc9c2166e2bdbbacd5256f9eb6e148183f220ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B177%2C%22z2dGzVFGgyRZChCXy9fRIrV3xEVDjIPH%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/family-protection-add',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_X_CSRF_TOKEN' => '_ePUDI9vasg_Qe6L_hslKEHNAqOAQsRwhCVz2fsCrbKq1uxZ7FcFv2YR2riJI1x3JIdN0_E26QHeFiKzsXr1ig==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '1.39.192.32',
+    'REMOTE_PORT' => '17834',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/dashboard/check-username',
+    'REDIRECT_URL' => '/demo_now/web/dashboard/check-username',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/check-username',
+    'SCRIPT_URL' => '/demo_now/web/dashboard/check-username',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1567584304.055325031280517578125,
+    'REQUEST_TIME' => 1567584304,
+]
+[04-Sep-2019 02:10:01 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 528. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 528. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8',
+    'CONTENT_LENGTH' => '25',
+    'HTTP_COOKIE' => 'PHPSESSID=e379ade5c8f9939f9019823c1ab8ebc5; _csrf=47c27068e549362e5c34e851cbfe629935b60b85ebee43f62dc266a14a124a99a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22W58Uc8owYP43w8y_eJOpqt-qZ3QjJxX8%22%3B%7D; _identity=4481db6e26792ad04f4eed48b7fc9c2166e2bdbbacd5256f9eb6e148183f220ca%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B177%2C%22z2dGzVFGgyRZChCXy9fRIrV3xEVDjIPH%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/family-protection-add',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0',
+    'HTTP_X_CSRF_TOKEN' => '_ePUDI9vasg_Qe6L_hslKEHNAqOAQsRwhCVz2fsCrbKq1uxZ7FcFv2YR2riJI1x3JIdN0_E26QHeFiKzsXr1ig==',
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '1.39.192.32',
+    'REMOTE_PORT' => '17862',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/dashboard/check-username',
+    'REDIRECT_URL' => '/demo_now/web/dashboard/check-username',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/check-username',
+    'SCRIPT_URL' => '/demo_now/web/dashboard/check-username',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1567584601.531755924224853515625,
+    'REQUEST_TIME' => 1567584601,
+]
+[23-Sep-2019 06:42:56 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 474. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/controllers/UserController.php on line 474. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/bin:/usr/bin:/usr/local/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-CA,en-US;q=0.7,en;q=0.3',
+    'HTTP_COOKIE' => 'PHPSESSID=ac94659f355c08bedee7e2a5b825ea39; _csrf=a0dd2e894b37307a33d9ce13b2864d4bcfcca1d6b70ff3aabaccaeae0b97fd9ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wxhI9WrTPRL0GoEq0S2q-RklFIZFe2AO%22%3B%7D; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0',
+    'HTTP_DNT' => '1',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '43924',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/block-user?id=235',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/block-user',
+    'REDIRECT_QUERY_STRING' => 'id=235',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => 'id=235',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/block-user',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/block-user',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1569242575.9606039524078369140625,
+    'REQUEST_TIME' => 1569242575,
+]
+[04-Nov-2019 08:54:16 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,en-GB;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=85e4a31abf95d7ded3f374eec4904894; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=d97d5fd7e5dcb03bb8094d4a71de42574b1895f666104683ebccad68265dc469a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22R5IEnik4qsxz3ytJ8z7EwugteiT3eDTx%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_DNT' => '1',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '47356',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572882854.6740028858184814453125,
+    'REQUEST_TIME' => 1572882854,
+]
+[04-Nov-2019 09:00:06 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,en-GB;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=83640d58c6e7b88fa55665a37a062051; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=63d96cb99de7d2b624739f16f70cee52f26e04c76a2d036f77e4aede5b12a974a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sY8ZyvkDq2gZcMjpvH7UfVkSLX4GUUH1%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_DNT' => '1',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '47366',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572883206.7732570171356201171875,
+    'REQUEST_TIME' => 1572883206,
+]
+[04-Nov-2019 09:00:58 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,en-GB;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=f3af8883f171578b878665df1564dd43; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=ff96678bee98d6c2a31fa0508d332e098e2dd283fb21c99483085bf49a50e1a9a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22qFe78G8adQZHk7fPibKZrsJo2FVEjVxo%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_DNT' => '1',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '47376',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572883258.5399758815765380859375,
+    'REQUEST_TIME' => 1572883258,
+]
+[04-Nov-2019 09:41:38 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9,en-GB;q=0.8',
+    'HTTP_COOKIE' => 'PHPSESSID=61ed7de4d9e8b4247b7b5f6a8ad3bf34; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=5659e736ee840f09449b1ef80296ca06e5194acb548ffa99ff9289cb0faf03dca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22vvi69FYfHnRPSiu62ekNQ5vdYeLXkNiy%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/73.0.3683.86 Chrome/73.0.3683.86 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_DNT' => '1',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '24.65.67.80',
+    'REMOTE_PORT' => '47630',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572885698.5350129604339599609375,
+    'REQUEST_TIME' => 1572885698,
+]
+[04-Nov-2019 09:42:47 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_COOKIE' => 'timezone=Asia/Shanghai; cpsession=idtflrco%3aEcIFPJgH5_E90QEw%2c3a5d02286e620a51a287f4b1ded86d25; PHPSESSID=f09e71c1d22dc34c3e8548cc13d8c855; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=8fd496ef109331c997b7633607486f68027de55834f62477895e7a288529db0aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SS2a3qB2x90znBu3cjsHkln8okBc8izw%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '45.56.155.192',
+    'REMOTE_PORT' => '17505',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => 'cd9cdbb3d26330afc31f12c56973f1bb65befdf42ecd4c48edcf6f6963d55624',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572885767.2666509151458740234375,
+    'REQUEST_TIME' => 1572885767,
+]
+[04-Nov-2019 09:44:45 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_COOKIE' => 'timezone=Asia/Shanghai; cpsession=idtflrco%3aEcIFPJgH5_E90QEw%2c3a5d02286e620a51a287f4b1ded86d25; PHPSESSID=f09e71c1d22dc34c3e8548cc13d8c855; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=8fd496ef109331c997b7633607486f68027de55834f62477895e7a288529db0aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SS2a3qB2x90znBu3cjsHkln8okBc8izw%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '45.56.155.192',
+    'REMOTE_PORT' => '4515',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572885885.3177359104156494140625,
+    'REQUEST_TIME' => 1572885885,
+]
+[04-Nov-2019 09:44:46 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/modules/backend/Backend.php on line 18. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_COOKIE' => 'timezone=Asia/Shanghai; cpsession=idtflrco%3aEcIFPJgH5_E90QEw%2c3a5d02286e620a51a287f4b1ded86d25; PHPSESSID=f09e71c1d22dc34c3e8548cc13d8c855; _identity=a3ffb5ce6f0283ef57ec9b3c5beab6e65ca835daac1efbdf2109d1a22a57c12fa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22IlyR1zUALLvIu4E3v0gfdGUAXMaoRTFm%22%2C2592000%5D%22%3B%7D; _csrf=8fd496ef109331c997b7633607486f68027de55834f62477895e7a288529db0aa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22SS2a3qB2x90znBu3cjsHkln8okBc8izw%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/site',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_SITE' => 'same-origin',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '45.56.155.192',
+    'REMOTE_PORT' => '4515',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/backend/user/index',
+    'REDIRECT_URL' => '/demo_now/web/backend/user/index',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/backend/user/index',
+    'SCRIPT_URL' => '/demo_now/web/backend/user/index',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572885886.8537619113922119140625,
+    'REQUEST_TIME' => 1572885886,
+]
+[05-Nov-2019 11:38:46 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/SiteController.php on line 568. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/SiteController.php on line 568. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/web/index.php(23): yii\base\Application->run()
+#3 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_COOKIE' => '_csrf=c72cfad63bff252b258ca1b6b4daac8d368a621e14f9dc5163eeee59339dbc90a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xe7TFn9JAv_9kWBc1DhUrJdOBJ14GAzm%22%3B%7D; PHPSESSID=549cf8e3ae60db4d57675cbc9dae7888',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_SEC_FETCH_USER' => '?1',
+    'HTTP_SEC_FETCH_SITE' => 'cross-site',
+    'HTTP_SEC_FETCH_MODE' => 'navigate',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '45.56.155.174',
+    'REMOTE_PORT' => '9633',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/site/snapshot?id=371&token=vpN_oL12leGKKr2gpJviVbtX67dz9XDL_1572977845&key=1',
+    'REDIRECT_URL' => '/demo_now/web/site/snapshot',
+    'REDIRECT_QUERY_STRING' => 'id=371&token=vpN_oL12leGKKr2gpJviVbtX67dz9XDL_1572977845&key=1',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => 'id=371&token=vpN_oL12leGKKr2gpJviVbtX67dz9XDL_1572977845&key=1',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/site/snapshot',
+    'SCRIPT_URL' => '/demo_now/web/site/snapshot',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'GET',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1572979125.87691497802734375,
+    'REQUEST_TIME' => 1572979125,
+]
+[08-Nov-2019 22:49:50 America/Edmonton] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/idtflrco/public_html/demo_now/components/phpExcel/Classes/PHPExcel/Calculation/Functions.php on line 581
+[08-Nov-2019 22:54:28 America/Edmonton] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/idtflrco/public_html/demo_now/components/phpExcel/Classes/PHPExcel/Calculation/Functions.php on line 581
+[08-Nov-2019 22:54:29 America/Edmonton] PHP Fatal error:  'break' not in the 'loop' or 'switch' context in /home/idtflrco/public_html/demo_now/components/phpExcel/Classes/PHPExcel/Calculation/Functions.php on line 581
+[04-Feb-2020 07:27:45 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 590. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Undefined variable: data in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php:591
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(591): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/idtflrco/...', 591, Array)
+#1 [internal function]: app\controllers\DashboardController->actionReportPayment()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('report-payment', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('dashboard/repor...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(51): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '232',
+    'HTTP_COOKIE' => 'PHPSESSID=d338ffb18b2c746d158d771050494b93; _csrf=0407e2eded116771fb98b44bea78a2845fb0d978559adb79778fde2de8d51c92a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Di54Av0EDvHG2Ce9aXYq9CeZZ8Pgb8uL%22%3B%7D; cpsession=idtflrco%3aPwjT3CNP9kGhBglm%2c6f2cda1f5c6952baed7473687e7483ba; timezone=Asia/Karachi; _identity=1f77be064db682975a88692edaf5f75376d20ce5c6eaf97a787786ae686693bfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B509%2C%22ciTKnyvAfTT2z_bxgxVwHlp8yTdiny8B%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/report-payment',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0',
+    'HTTP_CACHE_CONTROL' => 'max-age=0',
+    'HTTP_ORIGIN' => 'https://idtflrco.mywhc.ca',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '107.170.186.79',
+    'REMOTE_PORT' => '33234',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/dashboard/report-payment',
+    'REDIRECT_URL' => '/demo_now/web/dashboard/report-payment',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '45de9d63ee9eba2673842dd6285a22d2e80d7742166baacfe3512a130228554b',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/report-payment',
+    'SCRIPT_URL' => '/demo_now/web/dashboard/report-payment',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1580826465.1807858943939208984375,
+    'REQUEST_TIME' => 1580826465,
+]
+[04-Feb-2020 07:28:18 America/Edmonton] An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php on line 590. in /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php:366
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Response.php(339): yii\web\Response->sendHeaders()
+#1 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/ErrorHandler.php(135): yii\web\Response->send()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\base\ErrorException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\base\ErrorException))
+#4 {main}
+Previous exception:
+yii\base\ErrorException: Undefined variable: data in /home/idtflrco/public_html/demo_now/controllers/DashboardController.php:591
+Stack trace:
+#0 /home/idtflrco/public_html/demo_now/controllers/DashboardController.php(591): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', '/home/idtflrco/...', 591, Array)
+#1 [internal function]: app\controllers\DashboardController->actionReportPayment()
+#2 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#4 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('report-payment', Array)
+#5 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('dashboard/repor...', Array)
+#6 /home/idtflrco/public_html/demo_now/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /home/idtflrco/public_html/demo_now/web/index.php(51): yii\base\Application->run()
+#8 {main}
+$_SERVER = [
+    'PATH' => '/usr/local/bin:/bin:/usr/bin',
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+    'CONTENT_LENGTH' => '229',
+    'HTTP_COOKIE' => 'PHPSESSID=d338ffb18b2c746d158d771050494b93; _csrf=0407e2eded116771fb98b44bea78a2845fb0d978559adb79778fde2de8d51c92a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Di54Av0EDvHG2Ce9aXYq9CeZZ8Pgb8uL%22%3B%7D; cpsession=idtflrco%3aPwjT3CNP9kGhBglm%2c6f2cda1f5c6952baed7473687e7483ba; timezone=Asia/Karachi; _identity=1f77be064db682975a88692edaf5f75376d20ce5c6eaf97a787786ae686693bfa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A48%3A%22%5B509%2C%22ciTKnyvAfTT2z_bxgxVwHlp8yTdiny8B%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'idtflrco.mywhc.ca',
+    'HTTP_REFERER' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/report-payment',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0',
+    'HTTP_ORIGIN' => 'https://idtflrco.mywhc.ca',
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1',
+    'HTTP_TE' => 'trailers',
+    'DOCUMENT_ROOT' => '/home/idtflrco/public_html',
+    'REMOTE_ADDR' => '107.170.186.79',
+    'REMOTE_PORT' => '37373',
+    'SERVER_ADDR' => '162.213.156.67',
+    'SERVER_NAME' => 'idtflrco.mywhc.ca',
+    'SERVER_ADMIN' => 'webmaster@idtflr.com',
+    'SERVER_PORT' => '443',
+    'REQUEST_URI' => '/demo_now/web/dashboard/report-payment',
+    'REDIRECT_URL' => '/demo_now/web/dashboard/report-payment',
+    'HTTPS' => 'on',
+    'REDIRECT_STATUS' => '200',
+    'X_SPDY' => 'HTTP2',
+    'SSL_PROTOCOL' => 'TLSv1.2',
+    'SSL_SESSION_ID' => '45de9d63ee9eba2673842dd6285a22d2e80d7742166baacfe3512a130228554b',
+    'SSL_CIPHER' => 'ECDHE-RSA-AES256-GCM-SHA384',
+    'SSL_CIPHER_USEKEYSIZE' => '256',
+    'SSL_CIPHER_ALGKEYSIZE' => '256',
+    'SCRIPT_FILENAME' => '/home/idtflrco/public_html/demo_now/web/index.php',
+    'QUERY_STRING' => '',
+    'SCRIPT_URI' => 'https://idtflrco.mywhc.ca/demo_now/web/dashboard/report-payment',
+    'SCRIPT_URL' => '/demo_now/web/dashboard/report-payment',
+    'SCRIPT_NAME' => '/demo_now/web/index.php',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'SERVER_SOFTWARE' => 'LiteSpeed',
+    'REQUEST_METHOD' => 'POST',
+    'X-LSCACHE' => 'on',
+    'PHP_SELF' => '/demo_now/web/index.php',
+    'REQUEST_TIME_FLOAT' => 1580826498.4164180755615234375,
+    'REQUEST_TIME' => 1580826498,
+]
+[13-Feb-2020 09:39:02 America/Edmonton] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/idtflrco/public_html/demo_now/views/dashboard/how-it-works.php on line 22
